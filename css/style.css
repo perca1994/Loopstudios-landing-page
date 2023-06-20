@@ -175,6 +175,7 @@ h1 {
     flex-direction: row;
     position: relative;
     height: 600px;
+    margin-bottom: 10rem;
   }
 
   .about img {
@@ -251,6 +252,9 @@ figure figcaption {
 }
 
 @media screen and (min-width: 765px) {
+  .creations {
+    margin-bottom: 7rem;
+  }
   .container-text {
     width: 79%;
     display: flex;
